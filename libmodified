@@ -566,7 +566,7 @@ function library:InitNotifications(text, duration, callback)
         bar.BackgroundTransparency = 0.200
         bar.Size = UDim2.new(0, 0, 0, 1)
         if type == "notification" then
-            bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(245, 75, 56)
         elseif type == "alert" then
             bar.BackgroundColor3 = Color3.fromRGB(255, 246, 112)
         elseif type == "error" then

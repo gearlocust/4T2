@@ -758,7 +758,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=15129819954"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=15131043889"
     xsxLogo.ImageColor3 = Color3.fromRGB(2555, 255, 255)
     xsxLogo.ImageTransparency = 1
     
@@ -770,7 +770,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=15131043889"
+    hashLogo.Image = "http://www.roblox.com/asset/?id=15129819954"
     hashLogo.ImageColor3 = Color3.fromRGB(255, 255, 255)
     hashLogo.ImageTransparency = 1
     
@@ -778,7 +778,7 @@ function library:Introduction()
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsx.BackgroundTransparency = 1.000
-    xsx.Size = UDim2.new(0, 130, 0, 21)
+    xsx.Size = UDim2.new(0, 125, 0, 21)
     xsx.Font = Enum.Font.Code
     xsx.TextXAlignment = "Right"
     xsx.Text = "Powered by Blitzworks"

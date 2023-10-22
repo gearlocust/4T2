@@ -778,26 +778,13 @@ function library:Introduction()
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsx.BackgroundTransparency = 1.000
-    xsx.Size = UDim2.new(0, 125, 0, 21)
+    xsx.Size = UDim2.new(0, 115, 0, 21)
     xsx.Font = Enum.Font.Code
     xsx.TextXAlignment = "Right"
     xsx.Text = "Powered by Blitzworks"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
-    
-    text.Name = "text"
-    text.Parent = background
-    text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    text.BackgroundTransparency = 1.000
-    text.Position = UDim2.new(0.912751675, 0, 0, 0)
-    text.Size = UDim2.new(0, 26, 0, 21)
-    text.Font = Enum.Font.Code
-    text.Text = "hash"
-    text.TextColor3 = Color3.fromRGB(124, 124, 124)
-    text.TextSize = 10.000
-    text.TextTransparency = 1
-    text.RichText = true
     
     pageLayout.Name = "pageLayout"
     pageLayout.Parent = introduction

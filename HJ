@@ -48,6 +48,6 @@ local function Number2(num)
     wait(1)
 end
 
-for i = 1, _G.Amount do
+for i = 1, _G.HJAmount do
     Number2(i)
 end

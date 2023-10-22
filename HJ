@@ -39,12 +39,12 @@ local function Number2(num)
         local letter = string.sub(word, i, i)
         game.Players.LocalPlayer.Character.Humanoid.Jump = true
         wait(0.5)
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(letter, "All")
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.RadioService.RF.SendMessage:InvokeServer(letter)
         wait(2)
     end
     game.Players.LocalPlayer.Character.Humanoid.Jump = true
     wait(0.5)
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(word, "All")
+game:GetService("ReplicatedStorage").Packages.Knit.Services.RadioService.RF.SendMessage:InvokeServer(word)
     wait(1)
 end
 

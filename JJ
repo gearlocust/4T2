@@ -11,6 +11,8 @@ local numbers = {
     [100] = "ONE HUNDRED", [1000] = "ONE THOUSAND"
 }
 
+
+
 local function Number(number)
     if numbers[number] then
         return numbers[number]
@@ -32,11 +34,10 @@ local function Number(number)
         return numbers[number]
     end
 end
-
     local player = game.Players.LocalPlayer
-    for i = 1, __G.JJAmount do
+    for i = 1, _G.JJAmount do
         player.Character.Humanoid.Jump = true
-        wait(1)
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Number(i) .. "!", "All")
+        wait(1) -- (Number(i) .. "!", "All")
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.RadioService.RF.SendMessage:InvokeServer(Number(i) .. "!")
         wait(2)
     end
